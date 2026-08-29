@@ -1,0 +1,484 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+
+    <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1.0"
+    >
+
+    <title>Studio Bella | Salão de Beleza</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+
+    <link
+        rel="preconnect"
+        href="https://fonts.gstatic.com"
+        crossorigin
+    >
+
+    <link
+        href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:ital,wght@0,600;1,500&display=swap"
+        rel="stylesheet"
+    >
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header class="cabecalho">
+
+        <a href="#inicio" class="logo">
+            <i>Studio</i> Bella
+        </a>
+
+        <button
+            class="botao-menu"
+            id="botaoMenu"
+            aria-label="Abrir menu"
+        >
+            ☰
+        </button>
+
+        <nav id="menu">
+
+            <a href="#inicio">Início</a>
+
+            <a href="#servicos">Serviços</a>
+
+            <a href="#sobre">Sobre</a>
+
+            <a href="#contato">Contato</a>
+
+            <a href="#agendar" class="botao">
+                Agendar horário
+            </a>
+
+        </nav>
+
+    </header>
+
+    <main>
+
+        <!-- INÍCIO -->
+
+        <section class="inicio" id="inicio">
+
+            <div class="inicio-texto">
+
+                <span class="etiqueta">
+                    BELEZA • CUIDADO • AUTOESTIMA
+                </span>
+
+                <h1>
+                    Seu momento.
+                    <br>
+
+                    <em>Sua beleza.</em>
+                </h1>
+
+                <p>
+                    Um espaço feito para você desacelerar,
+                    se cuidar e sair ainda mais confiante.
+                </p>
+
+                <div class="acoes">
+
+                    <a href="#agendar" class="botao">
+                        Agendar agora
+                    </a>
+
+                    <a href="#servicos" class="link">
+                        Conhecer serviços →
+                    </a>
+
+                </div>
+
+                <div class="avaliacao">
+
+                    <b>★★★★★</b>
+
+                    4,9 • Mais de 300 clientes encantadas
+
+                </div>
+
+            </div>
+
+            <div class="foto-principal">
+
+                <img
+                    src="https://static.wixstatic.com/media/11062b_47fb12b5e8744391bcc23e983a7ac829~mv2.jpg/v1/fill/w_980,h_549,al_c,q_85/Visiting%20the%20Salon.jpg"
+                    alt="Atendimento em um salão de beleza"
+                >
+
+                <div class="destaque">
+
+                    ✨
+
+                    <span>
+
+                        <b>Especialistas em você</b>
+
+                        <small>
+                            Atendimento personalizado
+                        </small>
+
+                    </span>
+
+                </div>
+
+            </div>
+
+        </section>
+
+        <!-- SERVIÇOS -->
+
+        <section class="secao servicos" id="servicos">
+
+            <div class="titulo-secao">
+
+                <span class="etiqueta">
+                    NOSSOS SERVIÇOS
+                </span>
+
+                <h2>Cuidado em cada detalhe</h2>
+
+                <p>
+                    Escolha seu momento de beleza.
+                    Você merece.
+                </p>
+
+            </div>
+
+            <div class="grade-servicos">
+
+                <article>
+
+                    <span class="icone">✂</span>
+
+                    <h3>Corte & Finalização</h3>
+
+                    <p>
+                        Um corte pensado para valorizar
+                        o seu estilo.
+                    </p>
+
+                    <strong>
+                        A partir de R$ 60
+                    </strong>
+
+                    <a
+                        href="#agendar"
+                        data-servico="Corte & Finalização"
+                    >
+                        Agendar →
+                    </a>
+
+                </article>
+
+                <article>
+
+                    <span class="icone">✨</span>
+
+                    <h3>Coloração & Mechas</h3>
+
+                    <p>
+                        Cor, brilho e técnica para
+                        transformar seu visual.
+                    </p>
+
+                    <strong>
+                        A partir de R$ 180
+                    </strong>
+
+                    <a
+                        href="#agendar"
+                        data-servico="Coloração & Mechas"
+                    >
+                        Agendar →
+                    </a>
+
+                </article>
+
+                <article>
+
+                    <span class="icone">★</span>
+
+                    <h3>Manicure & Pedicure</h3>
+
+                    <p>
+                        Cuidado completo para mãos
+                        e pés impecáveis.
+                    </p>
+
+                    <strong>
+                        A partir de R$ 35
+                    </strong>
+
+                    <a
+                        href="#agendar"
+                        data-servico="Manicure & Pedicure"
+                    >
+                        Agendar →
+                    </a>
+
+                </article>
+
+                <article>
+
+                    <span class="icone">✓</span>
+
+                    <h3>Sobrancelhas</h3>
+
+                    <p>
+                        Design harmonioso e acabamento
+                        delicado.
+                    </p>
+
+                    <strong>
+                        A partir de R$ 30
+                    </strong>
+
+                    <a
+                        href="#agendar"
+                        data-servico="Sobrancelhas"
+                    >
+                        Agendar →
+                    </a>
+
+                </article>
+
+            </div>
+
+        </section>
+
+        <!-- SOBRE -->
+
+        <section class="secao sobre" id="sobre">
+
+            <div class="numero">
+
+                <b>8</b>
+
+                <span>
+                    ANOS
+                    <br>
+                    CUIDANDO
+                    <br>
+                    DE VOCÊ
+                </span>
+
+            </div>
+
+            <div>
+
+                <span class="etiqueta clara">
+                    NOSSA ESSÊNCIA
+                </span>
+
+                <h2>
+                    Mais que beleza,
+                    <br>
+                    uma experiência.
+                </h2>
+
+                <p>
+                    No Studio Bella, cada atendimento é único.
+                    Unimos técnica, produtos de qualidade e um
+                    cuidado genuíno para você se sentir especial
+                    do início ao fim.
+                </p>
+
+                <div class="beneficios">
+
+                    <span>
+                        ✓ Profissionais especializados
+                    </span>
+
+                    <span>
+                        ✓ Produtos selecionados
+                    </span>
+
+                    <span>
+                        ✓ Ambiente acolhedor
+                    </span>
+
+                </div>
+
+            </div>
+
+        </section>
+
+        <!-- AGENDAMENTO -->
+
+        <section class="secao agendamento" id="agendar">
+
+            <div>
+
+                <span class="etiqueta">
+                    AGENDE SEU MOMENTO
+                </span>
+
+                <h2>Pronta para se cuidar?</h2>
+
+                <p>
+                    Escolha o serviço e envie seu pedido pelo
+                    WhatsApp. A data e o horário serão combinados
+                    na conversa.
+                </p>
+
+                <div class="informacoes">
+
+                    <span>
+                        ◷ Segunda a sábado • 9h às 19h
+                    </span>
+
+                    <span>
+                        ⌖ Centro • Sua cidade
+                    </span>
+
+                </div>
+
+            </div>
+
+            <form id="formAgendamento">
+
+                <label>
+
+                    Seu nome
+
+                    <input
+                        type="text"
+                        id="nome"
+                        placeholder="Como podemos chamar você?"
+                        required
+                    >
+
+                </label>
+
+                <label>
+
+                    Serviço
+
+                    <select id="servico" required>
+
+                        <option value="">
+                            Selecione um serviço
+                        </option>
+
+                        <option value="Corte & Finalização">
+                            Corte & Finalização
+                        </option>
+
+                        <option value="Coloração & Mechas">
+                            Coloração & Mechas
+                        </option>
+
+                        <option value="Manicure & Pedicure">
+                            Manicure & Pedicure
+                        </option>
+
+                        <option value="Sobrancelhas">
+                            Sobrancelhas
+                        </option>
+
+                    </select>
+
+                </label>
+
+                <label>
+
+                    Profissional
+
+                    <select id="profissional">
+
+                        <option value="Sem preferência">
+                            Sem preferência
+                        </option>
+
+                        <option value="Ana">
+                            Ana
+                        </option>
+
+                        <option value="Camila">
+                            Camila
+                        </option>
+
+                        <option value="Juliana">
+                            Juliana
+                        </option>
+
+                    </select>
+
+                </label>
+
+                <button
+                    type="submit"
+                    class="botao botao-whatsapp"
+                >
+                    ☏ Enviar para o WhatsApp
+                </button>
+
+            </form>
+
+        </section>
+
+    </main>
+
+    <!-- RODAPÉ -->
+
+    <footer id="contato">
+
+        <div>
+
+            <a href="#inicio" class="logo rodape-logo">
+                <i>Studio</i> Bella
+            </a>
+
+            <p>
+                Beleza que acolhe.
+                Cuidado que transforma.
+            </p>
+
+        </div>
+
+        <div>
+
+            <b>Contato</b>
+
+            <p>
+                (48) 99999-9999
+                <br>
+                contato@studiobella.com.br
+            </p>
+
+        </div>
+
+        <div>
+
+            <b>Localização</b>
+
+            <p>
+                Rua das Flores, 123
+                <br>
+                Centro • Sua cidade
+            </p>
+
+        </div>
+
+        <div>
+
+            <b>Siga-nos</b>
+
+            <p>@studiobella</p>
+
+        </div>
+
+    </footer>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
